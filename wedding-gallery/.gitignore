@@ -1,0 +1,7 @@
+embeddings.json
+__pycache__/
+*.pyc
+.DS_Store
+frontend/.next/
+frontend/node_modules/
+users.txt

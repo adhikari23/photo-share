@@ -1,0 +1,179 @@
+2026-03-14T15:52:22Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-03-14T15:52:22Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-03-14T15:52:28Z INF +--------------------------------------------------------------------------------------------+
+2026-03-14T15:52:28Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-03-14T15:52:28Z INF |  https://voters-pittsburgh-kurt-practice.trycloudflare.com                                 |
+2026-03-14T15:52:28Z INF +--------------------------------------------------------------------------------------------+
+2026-03-14T15:52:28Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-03-14T15:52:28Z INF Version 2026.3.0 (Checksum e5b9a54b2dfe8a22335035b8e92ead4a1e283eb0ecfeb66337ed3737209be4b7)
+2026-03-14T15:52:28Z INF GOOS: darwin, GOVersion: go1.26.1, GoArch: arm64
+2026-03-14T15:52:28Z INF Settings: map[ha-connections:1 no-autoupdate:true protocol:quic url:http://localhost:3000]
+2026-03-14T15:52:28Z INF Environmental variables map[CLOUDFLARE_TUNNEL_TOKEN: TUNNEL_PROVIDER:cloudflare]
+2026-03-14T15:52:28Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-14T15:52:28Z INF Generated Connector ID: 0bcbadff-1f94-427f-9a74-21b58315bfd2
+2026-03-14T15:52:28Z INF Initial protocol quic
+2026-03-14T15:52:28Z INF ICMP proxy will use 192.168.0.107 as source for IPv4
+2026-03-14T15:52:28Z INF ICMP proxy will use fe80::1414:75d:c8cc:a641 in zone en0 as source for IPv6
+2026-03-14T15:52:28Z INF Created ICMP proxy listening on 192.168.0.107:0
+2026-03-14T15:52:28Z INF ICMP proxy will use 192.168.0.107 as source for IPv4
+2026-03-14T15:52:28Z INF ICMP proxy will use fe80::1414:75d:c8cc:a641 in zone en0 as source for IPv6
+2026-03-14T15:52:28Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-14T15:52:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T15:52:29Z INF Registered tunnel connection connIndex=0 connection=96394a17-b31b-4b8d-8c4f-65cd4c093e1a event=0 ip=198.41.192.167 location=bom06 protocol=quic
+2026-03-14T15:56:03Z ERR  error="stream 121 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:56:03Z ERR Request failed error="stream 121 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2892.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:56:03Z ERR  error="stream 113 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:56:03Z ERR Request failed error="stream 113 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2893.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:56:03Z ERR  error="stream 125 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:56:03Z ERR Request failed error="stream 125 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2895.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:56:03Z ERR  error="stream 129 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:56:03Z ERR Request failed error="stream 129 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2891.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:56:03Z ERR  error="stream 117 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:56:03Z ERR Request failed error="stream 117 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2894.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:59:09Z ERR  error="stream 257 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:59:09Z ERR  error="stream 273 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:59:09Z ERR Request failed error="stream 273 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2895.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:59:09Z ERR  error="stream 269 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:59:09Z ERR Request failed error="stream 269 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2892.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:59:09Z ERR  error="stream 261 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:59:09Z ERR Request failed error="stream 261 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2894.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:59:09Z ERR Request failed error="stream 257 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2893.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T15:59:09Z ERR  error="stream 265 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T15:59:09Z ERR Request failed error="stream 265 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2891.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T16:19:06Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:19:06Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:19:06Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:19:06Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:19:06Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:19:07Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:19:09Z INF Registered tunnel connection connIndex=0 connection=01b29993-b735-4f99-ae2b-fd48b54143a9 event=0 ip=198.41.192.167 location=bom06 protocol=quic
+2026-03-14T16:29:44Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:29:44Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:29:44Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:29:44Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:29:44Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:29:46Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T16:29:46Z INF Registered tunnel connection connIndex=0 connection=911aa484-84b5-4369-a1ea-5765060d75bd event=0 ip=198.41.192.167 location=bom06 protocol=quic
+2026-03-14T17:27:28Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:27:28Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:27:28Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:27:28Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:27:28Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:27:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:27:32Z INF Registered tunnel connection connIndex=0 connection=c7624529-bf9e-4466-be41-9ba67e77ee40 event=0 ip=198.41.192.167 location=bom06 protocol=quic
+2026-03-14T17:27:33Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+2026-03-14T17:31:50Z ERR  error="stream 89 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T17:31:50Z ERR Request failed error="stream 89 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2947.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T17:32:03Z ERR  error="stream 97 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T17:32:03Z ERR Request failed error="stream 97 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3112.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T17:32:10Z ERR  error="stream 109 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T17:32:10Z ERR Request failed error="stream 109 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T17:32:17Z ERR  error="stream 129 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T17:32:17Z ERR Request failed error="stream 129 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3113.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T17:32:22Z ERR  error="stream 145 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T17:32:22Z ERR Request failed error="stream 145 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/WEDDING/ARP_0607.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T17:32:45Z ERR  error="stream 161 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T17:32:45Z ERR Request failed error="stream 161 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/WEDDING/ARP_0607.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T17:32:47Z ERR  error="stream 169 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T17:32:47Z ERR Request failed error="stream 169 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/WEDDING/ARP_0609.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T17:33:04Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:33:04Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:33:04Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:33:04Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:33:04Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:33:05Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T17:33:08Z INF Registered tunnel connection connIndex=0 connection=eb1a903b-4440-44d5-ac34-7e5093391561 event=0 ip=198.41.192.167 location=bom06 protocol=quic
+2026-03-14T18:18:49Z ERR  error="stream 297 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T18:18:49Z ERR  error="stream 305 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T18:18:49Z ERR Request failed error="stream 297 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T18:18:49Z ERR Request failed error="stream 305 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:28:06Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T19:28:06Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T19:28:06Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T19:28:06Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T19:28:06Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T19:28:07Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T19:28:11Z INF Registered tunnel connection connIndex=0 connection=e5e2c57c-bbe8-4e48-9569-8c868bac64df event=0 ip=198.41.192.167 location=bom06 protocol=quic
+2026-03-14T19:37:18Z ERR  error="stream 5 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:37:18Z ERR Request failed error="stream 5 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:37:30Z ERR  error="stream 9 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:37:30Z ERR Request failed error="stream 9 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2920.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:37:31Z ERR  error="stream 1 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:37:31Z ERR Request failed error="stream 1 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/WEDDING/RGP_1438.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:37:32Z ERR  error="stream 21 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:37:32Z ERR Request failed error="stream 21 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:37:32Z ERR  error="stream 33 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:37:32Z ERR Request failed error="stream 33 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3113.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:37:33Z ERR  error="stream 49 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:37:33Z ERR Request failed error="stream 49 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:25Z ERR  error="stream 41 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:25Z ERR Request failed error="stream 41 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:25Z ERR  error="stream 85 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:25Z ERR Request failed error="stream 85 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3113.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:25Z ERR  error="stream 89 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:25Z ERR Request failed error="stream 89 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3113.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:25Z ERR  error="stream 77 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:25Z ERR Request failed error="stream 77 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2723.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:26Z ERR  error="stream 81 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:26Z ERR Request failed error="stream 81 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2723.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:26Z ERR  error="stream 69 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:26Z ERR Request failed error="stream 69 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/WEDDING/RGP_1438.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:28Z ERR  error="stream 57 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:28Z ERR  error="stream 65 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:28Z ERR Request failed error="stream 57 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:28Z ERR Request failed error="stream 65 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2920.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:28Z ERR  error="stream 73 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:28Z ERR Request failed error="stream 73 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/WEDDING/RGP_1438.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:28Z ERR  error="stream 45 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:28Z ERR Request failed error="stream 45 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:28Z ERR  error="stream 53 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:28Z ERR Request failed error="stream 53 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:29Z ERR  error="stream 61 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:29Z ERR Request failed error="stream 61 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2920.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:30Z ERR  error="stream 37 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:30Z ERR Request failed error="stream 37 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:31Z ERR  error="stream 17 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:31Z ERR  error="stream 13 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:31Z ERR Request failed error="stream 17 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:31Z ERR Request failed error="stream 13 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2920.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:34Z ERR  error="stream 25 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:34Z ERR Request failed error="stream 25 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2723.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:42Z ERR  error="stream 105 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:42Z ERR Request failed error="stream 105 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2920.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:48Z ERR  error="stream 93 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:48Z ERR Request failed error="stream 93 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:51Z ERR  error="stream 113 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:51Z ERR Request failed error="stream 113 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2723.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:54Z ERR  error="stream 97 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:54Z ERR Request failed error="stream 97 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:58Z ERR  error="stream 117 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:58Z ERR Request failed error="stream 117 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/WEDDING/RGP_1438.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:39:59Z ERR  error="stream 125 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:39:59Z ERR Request failed error="stream 125 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3114.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:40:00Z ERR  error="stream 121 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:40:00Z ERR Request failed error="stream 121 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_3113.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T19:40:02Z ERR  error="stream 137 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3000
+2026-03-14T19:40:02Z ERR Request failed error="stream 137 canceled by remote with error code 0" connIndex=0 dest=https://voters-pittsburgh-kurt-practice.trycloudflare.com/api/photo/reception/RGP_2723.JPG event=0 ip=198.41.192.167 type=http
+2026-03-14T20:56:15Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T20:56:15Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T20:56:15Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T20:56:15Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T20:56:15Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T20:56:17Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T20:56:18Z INF Registered tunnel connection connIndex=0 connection=5a907a79-f870-412a-8a1e-37dabb8c485d event=0 ip=198.41.192.167 location=bom06 protocol=quic
+2026-03-14T21:29:08Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:08Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:08Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:08Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:08Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:10Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:15Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:15Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.167
+2026-03-14T21:29:17Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.107
+2026-03-14T21:29:22Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.107
+2026-03-14T21:29:22Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.107
+2026-03-14T21:29:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.47
+2026-03-14T21:29:33Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.47
+2026-03-14T21:29:33Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.192.47
+2026-03-14T21:29:47Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-03-14T21:29:48Z INF Registered tunnel connection connIndex=0 connection=9784bd07-0f80-4f35-87d8-d727f7fa4238 event=0 ip=198.41.200.233 location=bom12 protocol=quic

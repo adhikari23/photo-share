@@ -1,0 +1,357 @@
+/Users/aadhikari/Downloads/workspace/wedding-gallery/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+INFO:     Started server process [17098]
+INFO:     Waiting for application startup.
+2026-03-14 21:22:13,332 INFO Startup complete: 6410 photos indexed, 23022 faces indexed, 23022 face vectors loaded
+2026-03-14 21:22:13,333 INFO Similarity threshold: 0.45
+2026-03-14 21:22:13,333 INFO Second-pass diverse anchors: 50
+2026-03-14 21:22:13,333 INFO Hero image path: /Users/aadhikari/Downloads/WEDDING/ARP_1150.JPG
+2026-03-14 21:22:13,333 INFO Users file path: /Users/aadhikari/Downloads/workspace/wedding-gallery/users.txt
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /Users/aadhikari/.insightface/models/buffalo_l/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /Users/aadhikari/.insightface/models/buffalo_l/2d106det.onnx landmark_2d_106 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /Users/aadhikari/.insightface/models/buffalo_l/det_10g.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /Users/aadhikari/.insightface/models/buffalo_l/genderage.onnx genderage ['None', 3, 96, 96] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /Users/aadhikari/.insightface/models/buffalo_l/w600k_r50.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "POST /api/visitor HTTP/1.1" 200 OK
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:442: RuntimeWarning: divide by zero encountered in matmul
+  similarities = face_matrix @ queries.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:442: RuntimeWarning: overflow encountered in matmul
+  similarities = face_matrix @ queries.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:442: RuntimeWarning: invalid value encountered in matmul
+  similarities = face_matrix @ queries.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:229: RuntimeWarning: divide by zero encountered in matmul
+  similarities = remaining_vectors @ selected_vectors.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:229: RuntimeWarning: overflow encountered in matmul
+  similarities = remaining_vectors @ selected_vectors.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:229: RuntimeWarning: invalid value encountered in matmul
+  similarities = remaining_vectors @ selected_vectors.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:481: RuntimeWarning: divide by zero encountered in matmul
+  expanded_similarities = face_matrix @ expanded_queries.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:481: RuntimeWarning: overflow encountered in matmul
+  expanded_similarities = face_matrix @ expanded_queries.T
+/Users/aadhikari/Downloads/workspace/wedding-gallery/backend/main.py:481: RuntimeWarning: invalid value encountered in matmul
+  expanded_similarities = face_matrix @ expanded_queries.T
+INFO:     2409:40e5:2110:8a00:8000:::0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/Engagement/ARP_2466.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/WEDDING/ARP_1095.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2420.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2894.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2892.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2893.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2891.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2895.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2894.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2892.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2893.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2895.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2891.JPG HTTP/1.1" 200 OK
+INFO:     2405:201:a425:1008:1341:cfcb:6884:d24d:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2420.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/Engagement/ARP_2466.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2894.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/WEDDING/RGP_1422.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2895.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2891.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2893.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2892.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2894.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2891.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2893.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2892.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2895.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2893.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2894.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2891.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2892.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e5:2110:8a00:8000:::0 - "GET /api/photo/reception/RGP_2895.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "POST /api/match HTTP/1.1" 401 Unauthorized
+INFO:     2409:40e0:8:87e4:8000:::0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "POST /api/match HTTP/1.1" 401 Unauthorized
+INFO:     2409:40e0:8:87e4:8000:::0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2237.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1438.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/reception/RGP_2722.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8286.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1723.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1706.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1722.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1721.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9061.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9350.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1439.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9247.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_0304.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1705.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_0441.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1724.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9319.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9193.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1731.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9341.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9320.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_0775.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_0787.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1725.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1730.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_9175.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_0786.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1704.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1707.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/RGP_1494.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:8:87e4:8000:::0 - "GET /api/photo/WEDDING/ARP_0773.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/Engagement/ARP_2259.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2243.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9497.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_3112.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8143.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9263.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_0609.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9493.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9248.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9497.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9493.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9474.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9263.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9194.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9464.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_0609.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9248.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9491.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9488.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1476.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1487.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1475.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9262.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9476.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9492.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1477.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9350.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9247.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1478.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_0607.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9251.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9265.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1490.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9463.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9494.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1794.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_0441.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9264.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9489.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9475.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1473.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1472.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/ARP_9479.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1486.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1474.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "POST /api/match HTTP/1.1" 401 Unauthorized
+INFO:     2409:40e0:2417:7d77:8000:::0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0607.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_2947.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3114.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3113.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_2946.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3112.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_2947.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_2947.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3112.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3112.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3112.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_2946.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_2946.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0609.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0607.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0607.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0609.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0609.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0607.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0607.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0609.JPG HTTP/1.1" 200 OK
+INFO:     2409:40e0:2417:7d77:8000:::0 - "GET /api/photo/WEDDING/ARP_0609.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8286.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_2722.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1438.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2237.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2238.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2197.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2235.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2245.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2241.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2222.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2244.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2243.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2247.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2240.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2239.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2221.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2236.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2239.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2239.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/hero-image HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/visitor HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "POST /api/match HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2237.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1438.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_2722.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8286.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2235.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8286.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2237.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_2722.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_7935.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_3113.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_3112.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_3114.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_2920.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_2721.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_2725.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:20c:5964::16b3:58ad:0 - "GET /api/photo/reception/RGP_2725.JPG HTTP/1.1" 200 OK
+INFO:     157.40.94.33:0 - "GET /api/photo/reception/RGP_2725.JPG HTTP/1.1" 200 OK
+INFO:     157.40.94.33:0 - "GET /api/photo/reception/RGP_2725.JPG HTTP/1.1" 206 Partial Content
+INFO:     157.40.94.33:0 - "GET /api/photo/reception/RGP_2725.JPG HTTP/1.1" 206 Partial Content
+INFO:     157.40.94.33:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2725.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2724.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2722.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8286.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2237.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8286.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2235.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2237.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_7935.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2722.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1439.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1723.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1721.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1722.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2237.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/bidai-bodhubaran-bhatkapor/RGP_2235.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_7935.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/AYBUROBHAT-SANGEET/ARP_8286.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2722.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1494.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1722.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/ARP_0773.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1723.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/ARP_9350.JPG?size=thumb HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2725.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2725.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 200 OK
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3114.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/WEDDING/RGP_1438.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2723.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_2920.JPG HTTP/1.1" 206 Partial Content
+INFO:     2409:4060:1e:e140::8c0:40a1:0 - "GET /api/photo/reception/RGP_3113.JPG HTTP/1.1" 206 Partial Content
